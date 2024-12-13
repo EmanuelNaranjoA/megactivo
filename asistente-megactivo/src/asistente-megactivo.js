@@ -113,7 +113,7 @@ static get properties() {
     `;
 
     let response;
-    response = await fetch("http://localhost:5000", {
+    response = await fetch("https://megactivo-ec6z.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
